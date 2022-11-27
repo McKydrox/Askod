@@ -1,4 +1,4 @@
-/****************************************TYPOGRAPHY ***************************************************/
+
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -125,13 +125,13 @@ p{
     background-color: #286090;
     border-color: #122b40;
 }
-/*******************************************HEADER***************************************************/
+
 header{
 	background-color: #b7b7b7;
 	position: relative;
 	display: block;
 }
-/*******************************************SLIDER HOME***************************************************/
+
 .sliding-card-with-bottom-image .image-container img{
 	position: relative;
     margin: 0 auto;
@@ -147,7 +147,7 @@ header{
 	font-size: 1.414em;
 	font-family: 'Montserrat', sans-serif;
 }
-/*******************************************SLIDER***************************************************/
+
 .slider-content-wraper{
 	padding-top: 150px;
 	padding-bottom: 150px;
@@ -155,16 +155,7 @@ header{
 	color: #fff;
 }
 
-/*******************************************FEATURE**************************************************/
-/*.feature{
-	position: relative;
-	overflow:hidden;
-}
-.feature-right-image{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}*/
+
 .feature-wiget{
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -194,7 +185,7 @@ header{
 	margin-top: 7px;
 	margin-bottom: 5px;
 }
-/*******************************************CARD*****************************************************/
+
 .card{
 	box-shadow: 0px 4px 15px 0px rgba(191, 195, 198, 0.29);
 }
@@ -205,7 +196,7 @@ header{
 .card-block{
 	padding:4rem;
 }
-/*******************************************TESTIMONIAL**********************************************/
+
 .heading-wraper{
 	margin-bottom: 120px;
 }
@@ -282,12 +273,12 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	padding-top: 60px;
 	margin-top: -60px;
 }
-/*******************************************CUSTOMER SUPPORT*****************************************/
+
 .customer-support-content{
 	padding-left: 15px;
 	padding-right: 15px;
 }
-/*******************************************SUBSCRIPTION*********************************************/
+
 .sunscription-wraper-outer{
 	box-shadow: 0px 8px 21px 0px rgba(191, 195, 198, 0.29);
 }
@@ -312,7 +303,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	background-color: #f1f6fa
 }
 
-/*******************************************FOOTER***************************************************/
+
 .footer-list-wiget h4{
 	color: #433b88;
 	text-transform: uppercase;
@@ -356,17 +347,23 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 }
 .footer-left-content{
 	margin-bottom: 50px;
+	margin-left: 400px;
+	
+	
 }
 .footer-left-content .content{
 	margin-top: 15px;
+
+	
 }
 .footer-list-wiget .list-group{
 	margin-top: 26px;
+
 }
 .padding-top-120{
 	padding-top: 120px;
 }
-/*******************************************ELEMENT STYLES*******************************************/
+
 .btn-orange,.btn-violat{
 	color: #fff;
 }
@@ -397,7 +394,6 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	vertical-align: middle;
 	white-space: nowrap;
 	cursor: pointer;
-    -webkit-user-select: none;
 }
 .text-center{
 	text-align: center;
@@ -513,7 +509,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	transition: all .5s ease;
 
 }
-/*******************************************BACKGROUND-STYLES****************************************/
+
 .bg-transparent{
 	background-color: transparent;
 }
@@ -547,7 +543,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	border:1px solid;
 }
 
-/*******************************************SCROLL TOP ICON*****************************************/
+
 .display-none{
 	display: none;
 	transition: all .5s ease;
@@ -577,7 +573,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
     text-align: center;
     font-size: 28px;
 }
-/*******************************************OVERLAY*************************************************/
+
 @media screen and (max-width: 768px) {
     .sm-padding-top-bottom-50-75 {
         padding-top: 50px;
@@ -653,7 +649,6 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 }
 
 
-/***************************************OWL CAROUSEL ******************************************************************/
 
 .owl-theme .owl-controls .owl-page span{
 	background: #fff;
@@ -678,4 +673,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 .home-slider .owl-next{
 	position: absolute;
 	right: 0;
+}
+.text-uppercase {
+	margin-left: 700px;
 }
